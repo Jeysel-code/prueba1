@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+body{
+	font-family: 'Montserrat', sans-serif, 'Oswald' , sans-serif;
+	font-size: 14px;
+	color: #212529;
+}
+.header-area.sticky {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+	width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+}
+.header-area.sticky .navbar-default{
+	background-color: #884bdf;
+}
+
+:root{
+	--Azul: #41c1fe;
+	--oscuro: #383838;
+	--gris: #f3f3f3;
+	--titulos: #3c3838;
+	--subtitulo: #888585;
+	--general: #898989;
+}
+
+#top{
+	background-image: url("../img/slider1_slide2.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding: 140px;
+}
+
+#top h2{
+	color: #fff;
+	font-weight: bolder;
+	text-align: center;
+	font-size: 60px;
+	padding-top: 80px;
+}
+
+#top p{
+	text-align: center;
+	color: var(--subtitulo);
+	font-size: 15px;
+}
+
+.btn-default{
+	background-color: var(--Azul)!important;
+	text-transform: uppercase;
+	 font-size: 17px!important;
+	 border-radius: 30px;
+	padding: 12px;
+	 border: 0px;
+	 color: #fff;
+}
+
+ #top .btn-default{
+	background-color: var(--Azul)!important;
+	text-transform: uppercase;
+	 font-size: 17px!important;
+	 padding: 15px 30px;
+	 border-radius: 30px;
+	 border: 0px;
+	 margin-left: 35%;
+	 color: #fff;
+}
+
+#top .btn-women{
+	background-color: #fff;
+	text-transform: uppercase;
+	font-size: 17px;
+	padding: 15px 30px;
+	border-radius: 30px;
+	border: 0;
+	margin-right: 20px;
+	color: var(--Azul);
+}
+
+#running{
+	padding: 60px;
+	font-weight: bolder;
+	font-size: 25px;
+	background-color: var(--gris);
+}
+
+#words{
+	padding: 60px;
+	font-weight: bolder;
+	font-size: 25px;
+	background-color: var(--gris);
+}
+
+
+.sale{
+	position: relative;
+	background-color: var(--Azul);
+	overflow: hidden;
+	color: #fff;
+	text-align: center;
+}
+
+.sale h2{
+	font-size: 40px;
+	font-weight: bold;
+	padding-top: 90px;
+}
+
+#shop{
+	background-color: var(--gris)!important;
+}
+
+#shop h4{
+	padding: 20px;
+	color: var(--general);
+	text-align: center;
+	font-size: 15px;
+}
+
+#shop h3{
+	font-size: 45px;
+	text-align: center;
+	font-weight: bolder;
+	text-transform: uppercase;
+	padding: 30px;
+	color: var(--oscuro)
+}
+
+#shop h5{
+	text-align: center;
+	align-content: center!important;
+	padding: 10px;
+	
+}
+
+#shop h6{
+	color: var(--general);
+	font-weight: bold;
+	padding: 10px;
+}
+
+#shop{
+	padding: 5%;
+}
+.car{
+	background-color: #fff;
+}
+
+#shop2{
+	background-color: var(--gris)!important;
+}
+
+#shop2 h4{
+	padding: 20px;
+	color: var(--general);
+	text-align: center;
+	font-size: 15px;
+}
+
+#shop2 h3{
+	font-size: 45px;
+	text-align: center;
+	font-weight: bolder;
+	text-transform: uppercase;
+	padding: 30px;
+	color: var(--oscuro)
+}
+
+#shop2 h5{
+	text-align: center;
+	align-content: center!important;
+	padding: 10px;
+	
+}
+
+#shop2 h6{
+	color: var(--general);
+	font-weight: bold;
+	padding: 10px;
+}
+
+#shop2 {
+	padding: 5%;
+
+}
+
+#new{
+	background-image: url("../img/bg_action.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding: 8%;
+}
+
+#new{
+	color: #fff;
+}
+
+#new .btn-women{
+	background-color: #fff;
+	text-transform: uppercase;
+	font-size: 15px;
+	padding: 15px 30px;
+	border-radius: 30px;
+	border: 0;
+	margin-right: 20px;
+	color: var(--Azul);
+}
+
+#new h2{
+	font-weight: 600;
+}
+
+#new p{
+	color: var(--general);
+}
+
+#new h3{
+	color: var(--Azul);
+	font-weight: 900;
+	padding: 5px;
+}
+
+span{
+	color:  var(--Azul);
+}
+
+
+#email{
+	background-color: var(--Azul);
+	padding: 3%;
+	align-content: center;
+	text-align: center;
+}
+
+#email .btn-women{
+	background-color: #fff;
+	text-transform: uppercase;
+	font-size: 15px;
+	padding: 10px 20px;
+	border-radius: 30px;
+	border: 0;
+	margin-right: 20px;
+	color: var(--Azul);
+}
+
+#email .si{
+	border-radius: 30px;
+	height: 40px;
+	width: 500px;
+	border: 1px solid #fff;
+	margin-left: 10px;
+	background-color: var(--Azul);
+	color: #fff!important;
+	text-align: center;
+}
+
+footer{
+	padding: 5px;
+	background-color: var(--oscuro);
+	text-align: right;
+	color: #fff;
+}
+
